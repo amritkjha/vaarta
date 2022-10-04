@@ -1,0 +1,101 @@
+.body {
+	margin: 0 0;
+}
+
+.logo {
+	display: block;
+	width: 52px;
+	height: 50px;
+}
+
+
+nav {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background-color: rgb(57,255,20);
+	margin: -8px -8px;
+	margin-bottom: 5px;
+}
+
+nav img {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+nav h2 {
+	padding-bottom: 8px;
+	margin-top: 13px;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	padding: 10px 5px;
+	height: 75vh;
+	background-color: rgb(230, 217, 200);
+	border-radius: 10px;
+	overflow-y: auto;
+}
+
+.message {
+	border-radius: 8px;
+	margin: 8px 2px;
+	width: 25%;
+	padding: 4px 2px;
+}
+
+.right {
+	background-color: rgb(57,255,20);
+	float: right;
+	clear: both;
+	color: black;
+}
+
+.left {
+	background-color: rgb(255,255,255);
+	float: left;
+	clear: both;
+	color: black;
+}
+
+.center {
+	background-color: rgb(0,100,100);
+	float: left;
+	clear: both;
+	color: white;
+}
+
+/*.send {
+	display: block;
+	width: 70%;
+	margin: auto;
+}*/
+
+#sendContainer {
+	margin: auto;
+	width: 70%;
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#msgInput {
+	width: 94%;
+	height: 28px;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+
+.btn {
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: rgb(57,255,20);
+}
+
+.btn img {
+	height: 25px;
+	width: 25px;
+}
